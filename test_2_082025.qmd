@@ -326,13 +326,13 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](images/small_sample_n5.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="0%"}
 
 
 ::: incremental
@@ -378,7 +378,7 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](images/small_sample_n100.png){.border .border-thick}
 
 
@@ -402,7 +402,7 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](images/small_sample_npop.png){.border .border-thick}
 
 
