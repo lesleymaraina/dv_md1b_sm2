@@ -32,6 +32,9 @@ format:
 :::
 
 
+
+
+
 ## <span style="font-size:80%">Recap: Importance of data visualization in scientific discovery</span> {.smaller}
 
 ::: columns
@@ -40,7 +43,7 @@ format:
 :::
 
 ::: {.column width="50%"}
-Consider clinical and biomedical research discovery lifecycle:
+Consider clinical and biomedical data science lifecycle:
 
 ::: incremental
 - Data visualization purpose in the research lifecycle is to turn raw information into trustworthy, decision-ready evidence
@@ -57,33 +60,30 @@ Consider clinical and biomedical research discovery lifecycle:
 ::: footer
 :::
 
-
-## <span style="font-size:80%">Recap: Importance of data visualization in scientific discovery</span> {.smaller}
+## <span style="font-size:80%">Guidance on effective visual communication</span> {.smaller}
+<br>
+<br>
+<br>
 
 ::: columns
-::: {.column width="50%"}
-![](images/data-science-wrangle_hadley_wickham.png){.border .border-thick}
+::: {.column width="0%"}
+
 :::
 
-::: {.column width="50%"}
-Consider clinical and biomedical research discovery lifecycle:
+::: {.column width="100%"}
+
 
 ::: incremental
-- Data visualization purpose in the research lifecycle is to turn raw information into trustworthy, decision-ready evidence
-- Generate analysis-ready datasets via data visualization in data wrangling
-- Modeling: visualize effect and outcomes
-- Improved communication via data storytelling
-
-
+- Communication
+- Have a clear purpose
+- Make the message obvious
 
 :::
 :::
-<span style="font-size:60%">Wickham and Grolemund 2017</span>
+
 :::
 ::: footer
 :::
-
-
 
 
 ## <span style="font-size:80%">Guidance on effective visual communication</span> {.smaller}
@@ -273,13 +273,13 @@ Make the message obvious
 ## <span style="font-size:80%">Misleading representations of data</span> {.smaller}
 
 ::: columns
-::: {.column width="30%"}
+::: {.column width="50%"}
 ![](images/bar_plot_misrep.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="70%"}
+::: {.column width="50%"}
 
 
 ::: incremental
@@ -326,13 +326,13 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="80%"}
 ![](images/small_sample_n5.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="0%"}
+::: {.column width="20%"}
 
 
 ::: incremental
@@ -353,13 +353,13 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="70%"}
 ![](images/small_sample_n20.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
 
 ::: incremental
@@ -378,13 +378,13 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="90%"}
 ![](images/small_sample_n100.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="10%"}
 
 
 ::: incremental
@@ -402,13 +402,13 @@ Make the message obvious
 ## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="90%"}
 ![](images/small_sample_npop.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="10%"}
 
 
 ::: incremental
@@ -426,16 +426,16 @@ Make the message obvious
 
 
 
-## <span style="font-size:80%">Distributions and sample sizes</span> {.smaller}
+## <span style="font-size:80%">Hidden Evidence Made Visible</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="90%"}
 ![](images/effective_dotplot.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="10%"}
 
 
 ::: incremental
@@ -486,13 +486,13 @@ Make the message obvious
 ## <span style="font-size:80%">Redesigning figures for insight</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="90%"}
 ![](images/box_whisker_left.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="10%"}
 
 
 ::: incremental
@@ -511,13 +511,13 @@ Make the message obvious
 ## <span style="font-size:80%">Redesigning figures for insight</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="90%"}
 ![](images/box_whisker_right.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="10%"}
 
 
 ::: incremental
@@ -538,13 +538,13 @@ Make the message obvious
 ## <span style="font-size:80%">Redesigning figures for insight</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](images/nature_good_plot.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 <br>
 *Study aim*: Can training machine learning models with combined omics data types predict how an individual breast cancer will respond to therapy better than any single assay?
 
@@ -567,13 +567,13 @@ Make the message obvious
 ## <span style="font-size:80%">Redesigning figures for insight</span> {.smaller}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="60%"}
 ![](images/nature_good_plot.png){.border .border-thick}
 
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 <br>
 *Study aim*: Can training machine learning models with combined omics data types predict how an individual breast cancer will respond to therapy better than any single assay?
 
